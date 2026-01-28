@@ -1,0 +1,114 @@
+.booking-page {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+.theatre {
+  padding: 20px;
+}
+
+/* PRICE TEXT */
+.price {
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* WHOLE SEAT AREA */
+.seat-layout {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* EACH BLOCK (left / center / right) */
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.row-label {
+  width: 20px;
+  font-size: 14px;
+}
+
+/* SEAT */
+.seat {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* STATES */
+.available {
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+}
+
+.selected {
+  background: #2ecc71;
+  color: white;
+}
+
+.booked {
+  background: #e0e0e0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.blocked {
+  border: 1px solid #f5a623;
+  color: #f5a623;
+}
+
+/* SCREEN */
+.screen {
+  margin: 90px auto 0;
+  width: 80vb;
+  padding: 10px;
+  text-align: center;
+  background: #e6f4ff;
+  border-radius: 6px;
+}
+
+/* LEFT SIDE */
+.theatre {
+  flex: 3;
+}
+
+/* RIGHT SIDE */
+.sidebar {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+
+  position: sticky;
+  top: 80px; /* below header */
+  height: 70vh;
+}
+
+.confirm-btn{
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+

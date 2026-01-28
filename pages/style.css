@@ -1,0 +1,109 @@
+body {
+  margin: 0px; 
+  /* padding-top: 60px; */
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: sticky;      /* header stays visible */
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 12px 30px;
+  background: white;
+  /* color: #e50914; */
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #e50914;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 6px 10px;
+}
+
+.nav a:hover {
+  color: #257b49; 
+}
+
+
+.movies,.about,.contact,.offers{
+    margin: 35px;
+}
+
+.movie-container,.offer-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card{
+  width: 200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.offer-card{
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.movie-card img,.offer-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  margin: 10px 0 5px;
+}
+
+.book-btn,.offer-card button{
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.book-btn:hover {
+  opacity: 0.8;
+}
+
+.footer{
+    background-color: rgb(61, 57, 57);
+    height: 100px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.fcontent{
+    margin-top: 45px;
+    margin-right: 35px;
+    cursor: pointer;
+}

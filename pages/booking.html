@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>MovieMania</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bookingStyle.css" />
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+      <img src="../assets/moviemaniaLogo.png" alt="MovieMania" class="logo">
+
+      <nav class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../index.html">Movies</a>
+        <a href="../index.html">Bookings</a>
+        <a href="../index.html">About</a>
+        <a href="../index.html">Contact</a>
+      </nav>
+    </header>
+
+
+  <div class="booking-page"> 
+    <section class="theatre">
+
+      <!-- GOLD SECTION -->
+      <div class="section">
+      <p class="price">₹250 GOLD</p>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">L</span>
+            <div class="seat available" id="L1">1</div>
+            <div class="seat available" id="L2">2</div>
+            <div class="seat booked" id="L3">3</div>
+            <div class="seat booked" id="L4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked"  id="L5">5</div>
+            <div class="seat available" id="L6">6</div>
+            <div class="seat available" id="L7">7</div>
+            <div class="seat blocked" id="L8">8</div>
+            <div class="seat blocked" id="L9">9</div>
+            <div class="seat available" id="L10">10</div>
+            <div class="seat available" id="L11">11</div>
+            <div class="seat blocked" id="L12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="L13">13</div>
+            <div class="seat available" id="L14">14</div>
+            <div class="seat booked" id="L15">15</div>
+            <div class="seat booked" id="L16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">K</span>
+            <div class="seat available" id="K1">1</div>
+            <div class="seat available" id="K2">2</div>
+            <div class="seat booked" id="K3">3</div>
+            <div class="seat booked" id="K4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="K5">5</div>
+            <div class="seat available" id="K6">6</div>
+            <div class="seat available" id="K7">7</div>
+            <div class="seat blocked" id="K8">8</div>
+            <div class="seat blocked" id="K9">9</div>
+            <div class="seat available" id="K10">10</div>
+            <div class="seat available" id="K11">11</div>
+            <div class="seat blocked" id="K12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="K13">13</div>
+            <div class="seat available" id="K14">14</div>
+            <div class="seat booked" id="K15">15</div>
+            <div class="seat booked" id="K16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">J</span>
+            <div class="seat available" id="J1">1</div>
+            <div class="seat available" id="J2">2</div>
+            <div class="seat booked" id="J3">3</div>
+            <div class="seat booked" id="J4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="J5">5</div>
+            <div class="seat available" id="J6">6</div>
+            <div class="seat available" id="J7">7</div>
+            <div class="seat blocked" id="J8">8</div>
+            <div class="seat blocked" id="J9">9</div>
+            <div class="seat available" id="J10">10</div>
+            <div class="seat available" id="J11">11</div>
+            <div class="seat blocked" id="J12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="J13">13</div>
+            <div class="seat available" id="J14">14</div>
+            <div class="seat booked" id="J15">15</div>
+            <div class="seat booked" id="J16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">I</span>
+            <div class="seat available" id="I1">1</div>
+            <div class="seat available" id="I2">2</div>
+            <div class="seat booked" id="I3">3</div>
+            <div class="seat booked" id="I4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="I5">5</div>
+            <div class="seat available" id="I6">6</div>
+            <div class="seat available" id="I7">7</div>
+            <div class="seat blocked" id="I8">8</div>
+            <div class="seat blocked" id="I9">9</div>
+            <div class="seat available" id="I10">10</div>
+            <div class="seat available" id="I11">11</div>
+            <div class="seat blocked" id="I12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="I13">13</div>
+            <div class="seat available" id="I14">14</div>
+            <div class="seat booked" id="I15">15</div>
+            <div class="seat booked" id="I16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">H</span>
+            <div class="seat available" id="H1">1</div>
+            <div class="seat available" id="H2">2</div>
+            <div class="seat booked" id="H3">3</div>
+            <div class="seat booked" id="H4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="H5">5</div>
+            <div class="seat available" id="H6">6</div>
+            <div class="seat available" id="H7">7</div>
+            <div class="seat blocked" id="H8">8</div>
+            <div class="seat blocked" id="H9">9</div>
+            <div class="seat available" id="H10">10</div>
+            <div class="seat available" id="H11">11</div>
+            <div class="seat blocked" id="H12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="H13">13</div>
+            <div class="seat available" id="H14">14</div>
+            <div class="seat booked" id="H15">15</div>
+            <div class="seat booked" id="H16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">G</span>
+            <div class="seat available" id="G1">1</div>
+            <div class="seat available" id="G2">2</div>
+            <div class="seat booked" id="G3">3</div>
+            <div class="seat booked" id="G4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="G5">5</div>
+            <div class="seat available" id="G6">6</div>
+            <div class="seat available" id="G7">7</div>
+            <div class="seat blocked" id="G8">8</div>
+            <div class="seat blocked" id="G9">9</div>
+            <div class="seat available" id="G10">10</div>
+            <div class="seat available" id="G11">11</div>
+            <div class="seat blocked" id="G12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="G13">13</div>
+            <div class="seat available" id="G14">14</div>
+            <div class="seat booked" id="G15">15</div>
+            <div class="seat booked" id="G16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">F</span>
+            <div class="seat available" id="F1">1</div>
+            <div class="seat available" id="F2">2</div>
+            <div class="seat booked" id="F3">3</div>
+            <div class="seat booked" id="F4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="F5">5</div>
+            <div class="seat available" id="F6">6</div>
+            <div class="seat available" id="F7">7</div>
+            <div class="seat blocked" id="F8">8</div>
+            <div class="seat blocked" id="F9">9</div>
+            <div class="seat available" id="F10">10</div>
+            <div class="seat available" id="F11">11</div>
+            <div class="seat blocked" id="F12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="F13">13</div>
+            <div class="seat available" id="F14">14</div>
+            <div class="seat booked" id="F15">15</div>
+            <div class="seat booked" id="F16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">E</span>
+            <div class="seat available" id="E1">1</div>
+            <div class="seat available" id="E2">2</div>
+            <div class="seat booked" id="E3">3</div>
+            <div class="seat booked" id="E4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="E5">5</div>
+            <div class="seat available" id="E6">6</div>
+            <div class="seat available" id="E7">7</div>
+            <div class="seat blocked" id="E8">8</div>
+            <div class="seat blocked" id="E9">9</div>
+            <div class="seat available" id="E10">10</div>
+            <div class="seat available" id="E11">11</div>
+            <div class="seat blocked" id="E12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="E13">13</div>
+            <div class="seat available" id="E14">14</div>
+            <div class="seat booked" id="E15">15</div>
+            <div class="seat booked" id="E16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">D</span>
+            <div class="seat available" id="D1">1</div>
+            <div class="seat available" id="D2">2</div>
+            <div class="seat booked" id="D3">3</div>
+            <div class="seat booked" id="D4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="D5">5</div>
+            <div class="seat available" id="D6">6</div>
+            <div class="seat available" id="D7">7</div>
+            <div class="seat blocked" id="D8">8</div>
+            <div class="seat blocked" id="D9">9</div>
+            <div class="seat available" id="D10">10</div>
+            <div class="seat available" id="D11">11</div>
+            <div class="seat blocked" id="D12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="D13">13</div>
+            <div class="seat available" id="D14">14</div>
+            <div class="seat booked" id="D15">15</div>
+            <div class="seat booked" id="D16">16</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <!-- SILVER SECTION -->
+      <div class="section">
+      <p class="price">₹250 SILVER</p>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">C</span>
+            <div class="seat available" id="C1">1</div>
+            <div class="seat available" id="C2">2</div>
+            <div class="seat booked" id="C3">3</div>
+            <div class="seat booked" id="C4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="C5">5</div>
+            <div class="seat available" id="C6">6</div>
+            <div class="seat available" id="C7">7</div>
+            <div class="seat blocked" id="C8">8</div>
+            <div class="seat blocked" id="C9">9</div>
+            <div class="seat available" id="C10">10</div>
+            <div class="seat available" id="C11">11</div>
+            <div class="seat blocked" id="C12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="C13">13</div>
+            <div class="seat available" id="C14">14</div>
+            <div class="seat booked" id="C15">15</div>
+            <div class="seat booked" id="C16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">B</span>
+            <div class="seat available" id="B1">1</div>
+            <div class="seat available" id="B2">2</div>
+            <div class="seat booked" id="B3">3</div>
+            <div class="seat booked" id="B4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="B5">5</div>
+            <div class="seat available" id="B6">6</div>
+            <div class="seat available" id="B7">7</div>
+            <div class="seat blocked" id="B8">8</div>
+            <div class="seat blocked" id="B9">9</div>
+            <div class="seat available" id="B10">10</div>
+            <div class="seat available" id="B11">11</div>
+            <div class="seat blocked" id="B12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="B13">13</div>
+            <div class="seat available" id="B14">14</div>
+            <div class="seat booked" id="B15">15</div>
+            <div class="seat booked" id="B16">16</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="seat-layout">
+
+        <!-- LEFT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label">A</span>
+            <div class="seat available" id="A1">1</div>
+            <div class="seat available" id="A2">2</div>
+            <div class="seat booked" id="A3">3</div>
+            <div class="seat booked" id="A4">4</div>
+          </div>
+        </div>
+
+        <!-- CENTER BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat blocked" id="A5">5</div>
+            <div class="seat available" id="A6">6</div>
+            <div class="seat available" id="A7">7</div>
+            <div class="seat blocked" id="A8">8</div>
+            <div class="seat blocked" id="A9">9</div>
+            <div class="seat available" id="A10">10</div>
+            <div class="seat available" id="A11">11</div>
+            <div class="seat blocked" id="A12">12</div>
+          </div>
+        </div>
+
+        <!-- RIGHT BLOCK -->
+        <div class="block">
+          <div class="row">
+            <span class="row-label"></span>
+            <div class="seat available" id="A13">13</div>
+            <div class="seat available" id="A14">14</div>
+            <div class="seat booked" id="A15">15</div>
+            <div class="seat booked" id="A16">16</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <!-- SCREEN -->
+      <div class="screen">All eyes this way please</div>
+
+    </section>
+
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      <h3>Ticket Summary</h3>
+
+      <div class="summary-item">
+        <p><strong>Movie:</strong></p>
+        <p id="MovieName">Movie Name</p>
+      </div>
+
+      <div class="summary-item">
+        <p><strong>Date & Time:</strong> 2 February 2026, 7:30 PM</p>
+      </div>
+
+      <div class="summary-item">
+        <p><strong>Selected Seats:</strong></p>
+        <p id="SelectedSeats">None</p>
+      </div>
+
+      <div class="summary-item">
+        <p><strong>Total Price:</strong></p>
+        <p id="TotalPrice">0</p>
+      </div>
+
+      <button class="confirm-btn">Confirm Booking</button>
+    </aside>
+
+  </div> 
+
+<footer class="footer">
+  <a class="fcontent">Privacy & Policy</a>
+  <a class="fcontent">Terms & Conditions</a>
+</footer>
+
+
+</body>
+</html>
