@@ -70,11 +70,6 @@
   cursor: not-allowed;
 }
 
-.blocked {
-  border: 1px solid #f5a623;
-  color: #f5a623;
-}
-
 /* SCREEN */
 .screen {
   margin: 90px auto 0;
